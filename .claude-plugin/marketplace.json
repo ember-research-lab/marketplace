@@ -11,7 +11,8 @@
       "name": "claude-cortex",
       "source": {
         "source": "url",
-        "url": "https://github.com/ember-research-lab/claude-cortex.git"
+        "url": "https://github.com/ember-research-lab/claude-cortex.git",
+        "ref": "main"
       },
       "description": "Persistent memory that makes Claude Code smarter across sessions",
       "category": "memory",
