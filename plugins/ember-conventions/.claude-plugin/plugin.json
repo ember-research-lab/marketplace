@@ -1,0 +1,11 @@
+{
+  "name": "ember-conventions",
+  "version": "0.1.0",
+  "description": "Ember Research Lab house conventions: code style, CI bar, threat-intel fixture discipline, repo scaffolding, and research-rigor auditing",
+  "author": {
+    "name": "Ember Research Lab",
+    "email": "emberresearchlab@gmail.com"
+  },
+  "homepage": "https://github.com/ember-research-lab/marketplace",
+  "keywords": ["conventions", "style", "fixtures", "rigor", "onboarding"]
+}
