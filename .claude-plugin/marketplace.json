@@ -46,6 +46,28 @@
         "rigor",
         "onboarding"
       ]
+    },
+    {
+      "name": "ember-grok",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/ember-research-lab/ember-grok.git",
+        "ref": "master"
+      },
+      "description": "Delegate work to xAI Grok (X-sub, ~free) from Claude Code — cheap-lane exploration/implementation, cross-model verification, and adversarial challenge, bridged into the cortex ledger. Claude stays the orchestrator; Grok is the default cost-saving lane.",
+      "category": "productivity",
+      "author": {
+        "name": "Ember Research Lab",
+        "email": "emberresearchlab@gmail.com"
+      },
+      "homepage": "https://github.com/ember-research-lab/ember-grok",
+      "keywords": [
+        "grok",
+        "delegation",
+        "cost",
+        "cheap-lane",
+        "verification"
+      ]
     }
   ]
 }
