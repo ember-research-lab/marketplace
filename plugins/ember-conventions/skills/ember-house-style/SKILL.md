@@ -81,6 +81,10 @@ limitations are documented, not hidden — see the honest-negative fixture patte
 
 ## Where deeper rules live
 
+- Repo `CLAUDE.md` files **link** org conventions (this skill + the workspace
+  `CLAUDE.md`); they do not recopy zero-dep / fmt / clippy / commit-format
+  paragraphs. But a repo rule that is *stricter* than the org bar is a delta,
+  not a duplicate — keep it. (`project-claude-md` already says the first half.)
 - Repo-specific invariants: that repo's `CLAUDE.md` + `design/*-spec.md` +
   `docs/internal-threat-model.md`
 - Research/formal work (Lean, manuscripts): `RIGOROUS_WORKFLOW.md` at the
