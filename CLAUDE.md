@@ -9,8 +9,12 @@ The **org plugin marketplace** for ember-research-lab: a catalog
 `plugins/`. Team machines register it once in `~/.claude/settings.json`
 (`extraKnownMarketplaces` → `github: ember-research-lab/marketplace`); each
 repo then opts into plugins via its checked-in `.claude/settings.json`
-(`"<plugin>@ember-research-lab": true`). Every ember repo currently enables
-`ember-conventions`.
+(`"<plugin>@ember-research-lab": true`). `ember-conventions` is enabled in
+claude-cortex, ember-agent-monitor, ember-network, ember-persistent,
+ember-presence, ember-smb-platform, ember-vault, vetpkg.
+
+Catalog today: `claude-cortex` (git, `main`), `ember-grok` (git, `master`),
+`ember-conventions` (in-repo).
 
 ## Catalog rules
 
