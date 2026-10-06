@@ -11,6 +11,7 @@ permissions:
 jobs:
   validate-catalog:
     runs-on: ubuntu-latest
+    timeout-minutes: 10
     steps:
       - uses: actions/checkout@b4ffde65f46336ab88eb53be808477a3936bae11
       - name: Validate marketplace.json + plugin layout
